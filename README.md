@@ -11,7 +11,7 @@ After executing the command, the following happens:
 
 - PHP is upgraded to version 7.0
 - Laravel is installed and a new Laravel project is created for you.
-- **/public** is added to **DocumentRoot /home/ubuntu/workspace/** so it becomes *DocumentRoot /home/ubuntu/workspace/**public***
+- **/public** is added to **DocumentRoot /home/ubuntu/workspace/** so it becomes *DocumentRoot /home/ubuntu/workspace/__public__*
 - MySQL Command *__(mysql-ctl cli)__* tool is executed.
 
 #### Note:
