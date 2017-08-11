@@ -22,6 +22,7 @@ function craftProject {
     export PATH=~/.composer/vendor/bin:$PATH
     laravel new laravel
     mv laravel/* ./
+    mv laravel/.* ./
     rm -rf laravel
 }
 craftProject
