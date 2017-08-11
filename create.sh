@@ -18,7 +18,7 @@ upgradingPhp
 
 function craftProject {
     rm README.md php.ini hello-world.php
-    sudo composer global require 'laravel/installer'
+    composer global require 'laravel/installer'
     export PATH=~/.composer/vendor/bin:$PATH
     laravel new laravel
     mv laravel/* ./
@@ -46,6 +46,5 @@ editFile
 
 function mySQL {
     mysql-ctl cli
-
 }
 mySQL
