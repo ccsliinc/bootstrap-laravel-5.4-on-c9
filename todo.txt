@@ -1,0 +1,9 @@
+Don't worry there's an easy fix. You just need to do the following:
+
+Add the following to the app/Providers/AppServiceProvider boot method:
+Schema::defaultStringLength(191);
+
+Don't forget to include the following at the top of the file:
+use Illuminate\Support\Facades\Schema;
+
+Now you're safe to run 'php artisan migrate'
