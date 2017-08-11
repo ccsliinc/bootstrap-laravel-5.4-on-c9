@@ -47,5 +47,12 @@ editFile
 
 function mySQL {
     mysql-ctl cli
+    phpmyadmin-ctl install
 }
-mySQL
+
+function laravel {
+    npm install
+    npm rebuild node-sass
+}
+
+#rm create.sh
